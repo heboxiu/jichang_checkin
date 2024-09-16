@@ -2,7 +2,7 @@ import requests, json, re, os
 
 session = requests.session()
 # 机场的地址
-url = os.environ.get('URL')
+url = os.environ.get('https://ikuuu.pw')
 # 配置用户名（一般是邮箱）
 
 config = os.environ.get('CONFIG')
